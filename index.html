@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <!-- Données non-visuelles -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Izakiro Website</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <!-- Données visuelles -->
-    <body>
-        <!-- En-tête -->
-        <div id="header">
-            <img src="pics/header.png" alt="mon avatar"/>
-        </div>
-        <div id="body">
-            <!-- Menu -->
-            <div id="menubar">
-                <div class="menu">
-                    <a href="index.html">&gt;Accueil&lt;</a><a href="about.html">&lt;À propos&gt;</a><a href="project.html">&lt;Projets&gt;</a>
-                </div>
+<!-- Données non-visuelles -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Izakiro Website - Accueil</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Données visuelles -->
+
+<body>
+    <!-- En-tête -->
+    <div class="menubar">
+        <ul class="menu">
+            <li><img src="pics/header.png" alt="mon avatar" class="menuimg" /></li>
+            <li class="menu-link"><a href="index.html">Accueil</a></li>
+            <li class="menu-link"><a href="about.html">À propos de moua</a></li>
+            <li class="menu-link"><a href="project.html">Projets</a></li>
+        </ul>
+    </div>
+    <div id="body">
+        <!-- Menu -->
+
+        <!-- Contenu -->
+        <div class="content">
+            <div id="gif">
+                <img src="pics/walking.gif" alt="walking" />
             </div>
-            <!-- Contenu -->
-            <div class="content">
-                <div id="gif">
-                    <img src="pics/walking.gif" alt="walking"/>
-                </div>
-                <h3 class="contentTitle">Bienvenue</h3>
-                <p>
-                    Ce site me sert de vitrine, c'est ici que j'afficherais mes projets dans le domaine de l'informatique.<br/>
-                    <br/>
-                    Le design du site se veut simple, parce qu'il est inutile de rendre complexe des choses simples.<br/>
-                    <br/>
-                    Une autre version du site est en développement, celui-ci utilise du PHP afin de mettre en place un
-                    système de comptes et de requêtes.
-                </p>
-            </div>
+            <h3 class="contentTitle">Bienvenue</h3>
+            <p>
+                Yo les troubadours, ceci est mon site vitrine. Comme vous l'aurez compris, toutes les infos concernant
+                mes projets sont répertoriées ici. Un jour de coup de pouce pour ma pub...<br />
+                <br />
+                Le design du site a été quelque peu éclaircit pour vous épargner l'utilisation d'une lampe de poche,
+                mais il reste dans l'optique de départ. Il se veut baisque parce qu'il est inutile de rendre complexe
+                des choses simples.<br />
+                <br />
+                Une autre version du site est en développement, celui-ci utilise du PHP afin de mettre en place un
+                système de comptes et de requêtes.
+            </p>
         </div>
-        <!-- Pied de page -->
-        <div id="footer">
-            <p>© Izakiro</p>
-        </div>
-    </body>
+    </div>
+    <!-- Pied de page -->
+    <div id="footer">
+        <p>Powered with style and Sasalami<br>&#169; Izakiro</p>
+    </div>
+</body>
+
 </html>
