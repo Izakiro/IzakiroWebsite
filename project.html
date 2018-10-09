@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <!-- Données non-visuelles -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Izakiro Website</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <!-- Données visuelles -->
-    <body>
-        <!-- En-tête -->
-        <div id="header">
-            <img src="pics/header.png" alt="mon avatar"/>
+<!-- Données non-visuelles -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Izakiro Website - Mes projets</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Données visuelles -->
+
+<body>
+    <!-- En-tête -->
+    <div class="menubar">
+        <ul class="menu">
+            <li><img src="pics/header.png" alt="mon avatar" class="menuimg" /></li>
+            <li class="menu-link"><a href="index.html">Accueil</a></li>
+            <li class="menu-link"><a href="about.html">À propos de moua</a></li>
+            <li class="menu-link"><a href="project.html">Projets</a></li>
+        </ul>
+    </div>
+    <div id="body">
+        <!-- Menu -->
+
+        <!-- Contenu -->
+        <div class="content">
+            <h3 class="contentTitle">Projets</h3>
+            <table style="width:100%">
+                <tr>
+                    <td style="text-align:center" class="imageTable">
+                        <a href="https://github.com/Izakiro/WumpusKingOS">
+                            <img class="imageofTable" src="pics/wumpusking.png" alt="wumpusking" />
+                            <h4>Wumpus King OS</h4>
+                            <p>Bot discord</p>
+                        </a>
+                    </td>
+                    <td style="text-align:center" class="imageTable">
+                        <a href="https://github.com/Izakiro/website">
+                            <img class="imageofTable" src="pics/header.png" alt="izakirowebsite" />
+                            <h4>Izakiro Website</h4>
+                            <p>Site HTML CSS</p>
+                        </a>
+                    </td>
+                    <td class="imageTable"></td>
+                </tr>
+            </table>
         </div>
-        <div id="body">
-            <!-- Menu -->
-            <div id="menubar">
-                <div class="menu">
-                    <a href="index.html">&lt;Accueil&gt;</a><a href="about.html">&lt;À propos&gt;</a><a href="project.html">&gt;Projets&lt;</a>
-                </div>
-            </div>
-            <!-- Contenu -->
-            <div class="content">
-                <h3 class="contentTitle">Projets</h3>
-                <table style="width:100%">
-                    <tr>
-                        <td align="center" class="imageTable">
-                            <a href="https://github.com/Izakiro/WumpusKingOS">
-                                <img class="imageofTable" src="pics/wumpusking.png" alt="wumpusking"/>
-                                <h4>Wumpus King OS</h4>
-                                <p>Bot discord</p>
-                            </a>
-                        </td>
-                        <td align="center" class="imageTable">
-                            <a href="https://github.com/Izakiro/website">
-                                <img class="imageofTable" src="pics/header.png" alt="izakirowebsite"/>
-                                <h4>Izakiro Website</h4>
-                                <p>Site HTML CSS</p>
-                            </a>
-                        </td>
-                        <td class="imageTable"></td>
-                    </tr>
-                </table>
-            </div>
-            </div>
-            <!-- Pied de page -->
-            <div id="footer">
-                <p>© Izakiro</p>
-            </div>
-        </body>
-    </html>
+    </div>
+    </div>
+    <!-- Pied de page -->
+    <div id="footer">
+        <p>Powered with style and Sasalami<br>&#169; Izakiro</p>
+    </div>
+</body>
+
+</html>
