@@ -6,6 +6,4 @@ Je suis Tristan, étudiant Belge universitaire en sciences informatiques. Je sui
 ### État du projet
 J'utilise le site afin d'exposer mes repositories donc il sera sans doute régulièrement mis à jour.
 ### Contribution(s)
-Sasalami a participé à la v2 du style.
-
-
+/
