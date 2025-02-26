@@ -1,71 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-<!-- Données non-visuelles -->
-
-<head>
-    <meta charset="utf-8" />
-    <title>Izakiro Website - À propos</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<!-- Données visuelles -->
-
-<body>
-    <!-- En-tête -->
-    <div class="menubar">
-        <ul class="menu">
-            <li><img src="pics/header.png" alt="mon avatar" class="menuimg" /></li>
-            <li class="menu-link"><a href="index.html">Accueil</a></li>
-            <li class="menu-link"><a href="about.html">À propos de moua</a></li>
-            <li class="menu-link"><a href="project.html">Projets</a></li>
-        </ul>
-    </div>
-    <div id="body">
-        <!-- Menu -->
-
-        <!-- Contenu -->
-        <div class="content">
-            <h3 class="contentTitle">Qui suis-je?</h3>
-            <p>
-                Je m'appelle Tristan Clement, j'ai 19 ans et je suis étudiant à l'UNamur, à la fac d'informatique, en
-                Belgique.<br />
-                <br />
-                J'ai des bases en HTML, CSS, Python ainsi que Javascript. Je passe une grande partie de mon temps à
-                pratiquer le coding afin de m'améliorer. <br />
-                <br />
-                Je crée ce site avant tout pour m'entrainer ainsi qu'offrir ce que j'ai déjà codé en accès Open-Source
-                via Github.
-            </p><br />
-            <h3 class="contentTitle">Mon parcours</h3>
-            <p>
-                Je vis à Wanze, près de la ville de Huy à mi-chemin entre Namur et Liège. J'ai étudié durant mes
-                secondaires à l'Institut Sainte-Marie de Huy.<br />
-                <br />
-                J'ai été un "bon élève" jusqu'en 3e année secondaire où j'ai commencé à me détacher du système
-                scolaire.
-                J'ai fait des efforts afin de finir les trois années restantes en doublant une fois. On m'a
-                diagnostiqué un "haut potentiel" (notion que je déteste, mais passons) ainsi qu'une phobie scolaire.<br />
-                <br />
-                Ce qui m'a fait tenir le coup était mon envie d'intégrer l'université afin d'y apprendre
-                l'informatique. Je n'ai pas la prétention d'être un génie dans ce domaine, je n'ai que de faibles
-                bases, mais j'ai envie d'apprendre.<br />
-                <br />
-                Voilà tout !
-            </p><br />
-            <h3 class="contentTitle">Réseaux sociaux</h3><br />
-            <div class="menubar">
-                <ul class="menu">
-                    <li class="menu-link"><a href="https://github.com/Izakiro">Github</a></li>
-                    <li class="menu-link"><a href="https://twitter.com/isaac_hiro">Twitter</a></li>
-                    <li class="menu-link"><a href="https://www.instagram.com/izakiro/">Instagram</a></li>
-                </ul>
-            </div>
-            <br />
-
+    <!-- Données non-visuelles -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Izakiro Website</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <!-- Données visuelles -->
+    <body>
+        <!-- En-tête -->
+        <div id="header">
+            <img src="pics/header.png" alt="mon avatar"/>
         </div>
-    </div>
-    <div id="footer">
-        <p>Powered with style and Sasalami<br>&#169; Izakiro</p>
-    </div>
-</body>
-
+        <div id="body">
+            <!-- Menu -->
+            <div id="menubar">
+                <div class="menu">
+                    <a href="index.html">&lt;Accueil&gt;</a><a href="about.html">&gt;À propos&lt;</a><a href="project.html">&lt;Projets&gt;</a>
+                </div>
+            </div>
+            <!-- Contenu -->
+            <div class="content">
+                <h3 class="contentTitle">Qui suis-je?</h3>
+                <p>
+                    Je m'appelle Tristan Clement, j'ai 19 ans et je suis étudiant à l'UNamur, à la fac d'informatique, en Belgique.<br/>
+                    <br/>
+                    J'ai des bases en HTML, CSS, Python ainsi que Javascript. Je passe une grande partie de mon temps à pratiquer le coding afin de m'améliorer. <br/>
+                    <br/>
+                    Je crée ce site avant tout pour m'entrainer ainsi qu'offrir ce que j'ai déjà codé en accès Open-Source via Github.
+                </p><br/>
+                <h3 class="contentTitle">Mon parcours</h3>
+                <p>
+                    Je vis à Wanze, près de la ville de Huy à mi-chemin entre Namur et Liège. J'ai étudié durant mes secondaires à l'Institut Sainte-Marie de Huy.<br/>
+                    <br/>
+                    J'ai été un "bon élève" jusqu'en 3ème année secondaire où j'ai commencé à me détacher du système scolaire.
+                    J'ai fais des efforts afin de finir les trois années restantes en doublant une fois. On m'a diagnostiqué un "haut potentiel" (notion que je déteste, mais passons) ainsi qu'une phobie scolaire.<br/>
+                    <br/>
+                    Ce qui m'a fait tenir le coup était mon envie d'intégrer l'université afin d'y apprendre l'informatique. Je n'ai pas la prétention d'être un génie dans ce domaine, je n'ai que de faibles bases, mais j'ai envie d'apprendre.<br/>
+                    <br/>
+                    Voilà tout!
+                </p><br/>
+                <h3 class="contentTitle">Réseaux sociaux</h3><br/>
+                <a id="button" href="https://github.com/Izakiro">Github</a><br/>
+                <a id="button" href="https://twitter.com/isaac_hiro">Twitter</a><br/>
+                <a id="button" href="https://www.instagram.com/izakiro/">Instagram</a>
+            </div>
+        </div>
+        <!-- Pied de page -->
+        <div id="footer">
+            <p>© Izakiro</p>
+        </div>
+    </body>
 </html>
